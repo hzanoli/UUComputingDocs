@@ -16,7 +16,7 @@ You can reach the quark cluster by logging into its head node:
 ```
 ssh -Y quark.science.uu.nl
 ```
-(the '-Y' option specifies that a graphical ('X11') connection also needs to be opened. You can also set this option in the ssh options file. Google 'ssh X11 forwarding' to find out more)
+(the '-Y' option specifies that a graphical ('X11') connection also needs to be opened. You can also set this option in the ssh options file. [Google 'ssh X11 forwarding'](https://lmgtfy.com/?q=ssh+x11+forwarding) to find out more)
 
 from any computer at the university network. To access the cluster from outside the university, you need to first ssh to the gateway machine `gemini.science.uu.nl` (or use VPN). Use your solis-id as username (no capital letter at the start) and your solis password to log in. Your account has to be activated for access to quark; if this is not the case, ask your project supervisor.
 
@@ -29,7 +29,7 @@ Some more technical information:
      * /data1: (20 Tb) Contains all home directories and software (root, aliroot)
      * /data2: (100 Tb) To keep larger (shared) data sets, like AODs (ALICE event data files) and simulation output.
   * The batch system on the farm is SGE (more details below)
-     * `qsub -V -cwd <exec>` to submit a job; '\<exec\>' is the name of the executable, normally a shell script that invokes your program with suitable arguments.
+     * `qsub -V -cwd <exec>` to submit a job; '\<exec\>' is the name of the executable, normally a shell script (Not sure what that is? [maybe Google can help?](https://lmgtfy.com/?q=shell+script+example)) that invokes your program with suitable arguments.
      * `qstat` to see your jobs in the queue
      * `qdel` to delete a job from the queue
   * Software is installed locally in /data1/software/
