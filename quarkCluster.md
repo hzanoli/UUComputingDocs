@@ -27,7 +27,7 @@ Some more technical information:
      * /data1: (20 Tb) Contains all home directories and software (root, aliroot)
      * /data2: (100 Tb) To keep larger (shared) data sets, like AODs (ALICE event data files) and simulation output.
   * The batch system on the farm is SGE (more details below)
-     * `qsub -V` to submit a job
+     * `qsub -V -cwd <exec>` to submit a job; '<exec>' is the name of the executable, normally a shell script that invokes your program with suitable arguments.
      * `qstat` to see your jobs in the queue
      * `qdel` to delete a job from the queue
   * Software is installed locally in /data1/software/
