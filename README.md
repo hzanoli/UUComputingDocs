@@ -4,8 +4,8 @@
 
 To get started, please select one of the topics below
   * [Desktop PCs in the student office](Desktops.md)
-  * [The quark cluster: running larger jobs](quarkCluster)
-  * [Setting up AliRoot on your laptop](laptop)
+  * [The quark cluster: running larger jobs](quarkCluster.md)
+  * [Setting up AliRoot on your laptop](laptop.md)
 
 ## ROOT: our main data analysis tool
 
