@@ -12,10 +12,12 @@ The idea of a batch farm is that you develop code on the head node and then *sub
 
 ## Specifics of the setup of quark
 
-You can reach the quark cluster by loggin into its head node:
+You can reach the quark cluster by logging into its head node:
 ```
-ssh quark.science.uu.nl
+ssh -Y quark.science.uu.nl
 ```
+(the '-Y' option specifies that a graphical ('X11') connection also needs to be opened. You can also set this option in the ssh options file. Google 'ssh X11 forwarding' to find out more)
+
 from any computer at the university network. To access the cluster from outside the university, you need to first ssh to the gateway machine `gemini.science.uu.nl` (or use VPN). Use your solis-id as username (no capital letter at the start) and your solis password to log in. Your account has to be activated for access to quark; if this is not the case, ask your project supervisor.
 
 There is a [graphical interface](http://quark.science.uu.nl) (only accessible from university computers) to see the main parameters of the cluser and find a user manual.
