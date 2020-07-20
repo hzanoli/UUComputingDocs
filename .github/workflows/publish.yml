@@ -25,8 +25,7 @@ jobs:
     - name: Commit documentation changes to gh-pages
       run: |
         git clone https://github.com/$GITHUB_REPOSITORY.git --branch gh-pages --single-branch gh-pages
-        cp -r _build/html/ .
-        cd html
+        cp -r _build/html/ gh-pages
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
@@ -36,5 +35,5 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         branch: gh-pages
-        directory: html
+        directory: gh-pages
         github_token: ${{ secrets.GITHUB_TOKEN }}
