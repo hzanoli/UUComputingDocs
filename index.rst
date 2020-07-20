@@ -24,22 +24,10 @@ and plot event data and other data, using so-called 'Trees' or 'NTuples'
 
 -  `ROOT webpage <https://root.cern.ch>`__
 
+
+
 The published form of this web site is at:
 `https://uugrasp.github.io/UUComputingDocs/ <https://uugrasp.github.io/UUComputingDocs/>`__
 
-Working from home
------------------
-
-We have prepared a tutorial on working from home, particularly focused
-on the bachelor students. You can check it
-`here <working-from-home/what-are-the-options.md>`__.
-
-
-.. Indices and tables
-.. ==================
-
-.. * :ref:`genindex`
-.. * :ref:`modindex`
-.. * :ref:`search`
 
 
