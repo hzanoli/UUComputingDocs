@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
+     <loc>https://uugrasp.github.io/UUComputingDocs/</loc>
+     <lastmod>2020-07-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://uugrasp.github.io/UUComputingDocs/desktops/</loc>
+     <lastmod>2020-07-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://uugrasp.github.io/UUComputingDocs/quark_cluster/</loc>
+     <lastmod>2020-07-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://uugrasp.github.io/UUComputingDocs/laptop_intro/</loc>
+     <lastmod>2020-07-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://uugrasp.github.io/UUComputingDocs/laptop/</loc>
+     <lastmod>2020-07-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://uugrasp.github.io/UUComputingDocs/vm/</loc>
+     <lastmod>2020-07-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+</urlset>
