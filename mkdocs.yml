@@ -1,0 +1,29 @@
+site_name: UU GRASP Computing manuals
+site_url: https://uugrasp.github.io/UUComputingDocs/
+
+repo_name: uugrasp/UUComputingDocs
+repo_url: https://github.com/uugrasp/UUComputingDocs
+
+theme:
+  name: material
+  palette:
+    primary: 'orange'
+    accent: 'indigo'
+
+nav:
+  - Home: index.md
+  - Desktop PCs in the student office: desktops.md
+  - 'The quark cluster: running larger jobs': quark_cluster.md
+  - Setting up AliRoot on your laptop:
+      - Introduction: laptop_intro.md
+      - Install in your current operation system: laptop.md
+      - Use the ALICE software in a virtual machine: vm.md
+
+plugins:
+    - search
+    - minify:
+        minify_html: true
+
+
+markdown_extensions:
+  - admonition
